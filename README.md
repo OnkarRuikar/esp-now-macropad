@@ -2,11 +2,11 @@
 
 The project implements wireless macro keyboard. For wireless connectivity [ESP-NOW](https://www.espressif.com/en/solutions/low-power-solutions/esp-now) communication protocol is used and not bluetooth or Wi-Fi. So you don't need Wi-Fi router or Bluetooth dongle.
 
-Two small size [ESP-32](https://en.wikipedia.org/wiki/ESP32) microcontrollers are used. ESP-32 has builtin wireless capabilities. One acts as USB dongle to be connected to PC. And the other as wireless macropad.
+Two small size [ESP-32](https://en.wikipedia.org/wiki/ESP32) microcontrollers dev boards have been used. ESP-32 has builtin wireless capabilities. One acts as USB dongle to be connected to PC. And the other as wireless macropad.
 
 ## 1. Required components
 
-1. Two mini ESP-32 microcontrollers. Buy two of any of the following:
+1. Two mini ESP-32 microcontrollers. Buy two of any of the following or buy one of each of the following:
     - [Waveshare ESP32-C3 Mini Development Board](https://www.waveshare.com/product/esp32-c3-zero.htm) ($4).
     - Any [ESP32 dev board with a lot of IO pins](https://www.waveshare.com/product/esp32-c6-dev-kit-n8.htm) ($7).
 2. [IR Remote Control Sensor Module](https://www.amazon.com/Alinan-Infrared-Control-Controller-Receiver/dp/B0C4XRW4SX/). In this project, for keypad I am using IR remote. You can use touch key pad (TTP229) or 4x4 key module instead
