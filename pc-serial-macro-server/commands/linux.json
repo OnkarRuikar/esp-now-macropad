@@ -1,0 +1,21 @@
+{
+  "set_volume": "pactl set-sink-volume 1",
+  "9": "xdotool key Right",
+  "69": "notepadqq",
+  "70": "shutdown -h now",
+  "71": "shutdown -r now",
+  "67": "xdotool mousemove $(( $(rand -M 20) + 1000 )) $(( $(rand -M 20) + 500 ))",
+  "64": "wmctrl -r :ACTIVE: -e 1,480,270,640,480",
+  "68": "flameshot gui --delay 1000 &",
+  "7": "xset dpms force off",
+  "29": "pacmd list-sources | grep -P \"card: \\d+ <[^>]*LifeCam_HD-5000[^>]*>\" | awk '{print $2}' | xargs -rn1 -I_ pactl set-source-mute _ toggle",
+  "22": "pactl set-sink-mute '@DEFAULT_SINK@' toggle",
+  "25": "pactl set-sink-volume 1 40%",
+  "13": "pactl set-sink-volume 1 85%",
+  "24": "pactl set-sink-volume 1 +5%",
+  "82": "pactl set-sink-volume 1 -5%",
+  "8": "playerctl previous",
+  "28": "playerctl play-pause",
+  "90": "playerctl next",
+  "b8": "bash ./scripts/sample.sh"
+}

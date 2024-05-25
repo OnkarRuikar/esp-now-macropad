@@ -1,0 +1,2 @@
+const trustedDevices = ["E8-6B-EA-D4-62-88"];
+uint8_t broadcastAddress[] = {0x34, 0xB7, 0xDA, 0x52, 0x9B, 0x9C};

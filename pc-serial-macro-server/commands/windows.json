@@ -1,0 +1,19 @@
+{
+  "set_volume": ".\\lib\\nircmd.exe setvolume 0",
+  "9": ".\\lib\\nircmd.exe sendkey 0x27 press",
+  "69": "notepad++",
+  "70": "shutdown.exe /s /t 5",
+  "71": "shutdown.exe /r /t 5",
+  "67": "nircmd movecursor 10 10",
+  "24": ".\\lib\\nircmd.exe changesysvolume 3553",
+  "82": ".\\lib\\nircmd.exe changesysvolume -3553",
+  "22": ".\\lib\\nircmd.exe mutesysvolume 2",
+  "25": ".\\lib\\nircmd.exe setvolume 0 26214 26214",
+  "13": ".\\lib\\nircmd.exe setvolume 0 55705 55705",
+  "8": ".\\lib\\nircmd.exe sendkey 0xB1 press",
+  "28": ".\\lib\\nircmd.exe sendkey 0xB3 press",
+  "90": ".\\lib\\nircmd.exe sendkey 0xB0 press",
+  "7": ".\\lib\\nircmd.exe monitor off",
+  "21": ".\\lib\\nircmd.exe changesysvolume 2 Microphone",
+  "b8": "\"scripts/sample.bat\""
+}

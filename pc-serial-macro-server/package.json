@@ -1,0 +1,16 @@
+{
+  "name": "pc-serial-macro-server",
+  "version": "1.0.0",
+  "description": "Read and send commands from serial port",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Onkar Ruikar",
+  "license": "MIT",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "serialport": "^12.0.0"
+  }
+}
