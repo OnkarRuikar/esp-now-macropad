@@ -93,3 +93,10 @@ Now monitor the PC macro server logs. Press all the keys on the remote control o
 Edit `pc-serial-macro-server/commands/linux.json` or `window.json` and update key codes as you like. Don't touch `set_volume` key. Restart the PC macro server.
 
 Restart the PC macro server to make changes live.
+
+## See also
+
+Other similar projects:
+
+- [Bluetooth based macropad](https://github.com/OnkarRuikar/bt-macro-remote)
+- [Wi-Fi based macropad](https://github.com/OnkarRuikar/wifi-macroboard)
